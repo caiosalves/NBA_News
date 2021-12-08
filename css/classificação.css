@@ -1,0 +1,95 @@
+*{
+    font-family: cursive;
+    font-size: 0.9rem;
+}
+
+table{
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+table td{
+    align-items: center;
+}
+
+table th{
+    padding: 10px;
+}
+
+table th a:hover{
+    border-bottom: 2px solid #000;
+    transition: 0.2s;
+} 
+
+table tr{
+    border: 1px solid #000;
+} 
+
+td img{
+    width: 30px;
+}
+
+table tbody tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+} 
+
+body{
+    background-color: #e41134;
+}
+
+.cabeçalho{
+    margin-bottom: -20px;
+    width: 100%;
+}
+
+.cabeçalho thead tr th{
+    text-align: center;
+}
+
+.tabs div{
+    display: none;
+}
+
+.tabs div:target{
+    display: block;
+}
+
+.time {
+    width: 250px;
+    border-bottom: 2px solid #000;
+}
+
+.estatistica{
+    width: 50px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+.center{
+    text-align: center;
+}
+
+.posicao{
+    display: flex;
+}
+
+.posicao p{
+    margin-left: 5px;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.tabs{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: center;
+    background-color: #fff;
+}

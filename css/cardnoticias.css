@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    background-color: #e41134;
+    margin-top: 0px;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #e41134;
+}
+
+.noticia{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: black 2px solid;
+    border-radius: 15px;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.noticia img{
+    height: 300px;
+    width: 500px;
+    border: black 2px solid;
+    border-radius: 15px;
+    margin-top: 3px;
+}
+
+.noticia:hover{
+    box-shadow: 3px 3px 3px 3px #b8995a;
+}
+
+.materia{
+    margin: 20px;
+}

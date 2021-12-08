@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    height: 150px;
+    width: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover{
+    background-color: gainsboro;
+    box-shadow: 3px 3px 3px 3px #b8995a;
+}
+
+.time{
+    margin-top: 15px;
+    width: 100px;
+}
+
+.resultado{
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -135px;
+}
+
+.resultado h2{
+    margin-top: 35px;
+}
+
+.placar{
+    margin-top: -117px;
+}
+
+.placar h2{
+    margin-top: 35px;
+}
+
+.data{
+    margin-left: 350px;
+    margin-top: -65px;
+    border-left: 2px solid black;
+    align-items: center;
+    justify-self: center;
+}
+
+.jogos{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e41134;
+    margin-top: 50px;
+}
+
+.col .card{
+    margin-top: 30px;
+}
+
+.col{
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

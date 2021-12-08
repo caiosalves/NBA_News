@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size: 1em;
+}
+
+header{
+    background-color: #00265B;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    top: 0%;
+}
+
+header h1 img{
+    height: 80px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: -5px;
+    margin-left: 100px;
+}
+
+header nav{
+    margin: 0 auto;
+    margin-left: 100px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+header nav ul li{
+    margin: 30px;
+    transition: 0.5s;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    transform: scale(1.05);
+}
+
+nav{
+    display: flex;
+}
+
+nav span{
+    margin-top: 30px;
+    margin-left: 140px;
+    transition: all 0.5s;
+}
+
+nav span:hover{
+    transform: scale(1.05);
+}
+
+/* CARROSEL */
+section{
+    background-color: #e41134;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.title{
+    color:  #fff;
+    text-align: center;
+}
+
+.title h1{
+    margin-bottom: 50px;
+    font-size: 1.7em;
+}
+
+footer{
+    width: 100%;
+    background-color: #00265B;
+    color: #fff;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.direitos{
+    margin-top: 60px;
+}
+
+.insta{
+    margin-left: -100px;
+}
+
+.insta a{
+    margin: 30px;
+}
+
+.insta img{
+    transition: all 0.5s;
+}
+
+.insta img:hover{
+    transform: scale(1.1);
+}
+
+footer img{
+    width: 2%;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: repeating-radial-gradient(#000, #00265b);
+}
+
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid #e41134;
+}
+
+main img{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    margin-left: 38px;
+    margin-top: -80px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+form input{
+    width: 100%;
+    border: 2px solid #e41134;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+form button{
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 50px;
+    transition: 0.4s;
+    border-radius: 10px ;
+    border: 2px solid #e41134;
+    text-align: center;
+    background-color: #b8995a;
+}
+
+form input:hover{
+    transform: scale(1.01);
+}
+
+form button:hover{
+    transform: scale(1.01);
+}
+
+main div{
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+.lembrar{
+    margin: 0 auto;
+    margin-top: -130px;
+    text-align: justify;
+    width: 300px;
+}
+
+span a{
+    color: #fff;
+    font-size: 1.4em;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+span a:hover{
+    transform: scale(1.01);
+}

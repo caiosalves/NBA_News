@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* FOTO */
+.foto{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    background-image: repeating-radial-gradient(#000, #00265b);
+    cursor: pointer;
+}
+
+.texto{
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    height: 500px;
+    color: white;
+    align-items: center;
+    margin-top: 80px;
+}
+/* FOTO */
+
+
+.slide{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+    margin-top: 30px;
+}
+
+.slides{
+    width: 4000px;
+    display: flex;
+}
+
+.image img{
+    width: 750px;
+    height: 500px;
+}
+
+#atual{
+    transition: all 2s;
+}
+
+.btn{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+#voltar{
+    top: 60%;
+    left: 10%;
+}
+
+#next{
+    top: 60%;
+    right: 10%;
+}
+
+.balls{
+    position: absolute;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 390px;
+} 
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #fff;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover{
+    background: #fff;
+}
+
+.imgAtual{
+    background: #fff;
+    transition: all 0.5s;
+}
+
